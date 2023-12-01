@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 addMessageToChat('Astrophile', data.reply);
             } catch (error) {
                 console.error('Error:', error);
-                addMessageToChat('AI', 'Sorry, an error occurred.');
+                addMessageToChat('Astrophile', 'Sorry, an error occurred.');
             }
         }
     });
