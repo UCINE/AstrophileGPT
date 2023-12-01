@@ -19,7 +19,7 @@ async function getAIResponse(message) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer YOUR_OPENAI_API_KEY'
+            'Authorization': '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'
         },
         body: JSON.stringify({
             prompt: message,
